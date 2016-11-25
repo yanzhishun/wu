@@ -12,12 +12,12 @@ namespace moni
         /// <summary>
         /// 0开始的特征码，不能重复
         /// </summary>
-
+        sdf
 
 
         //只能get的说明检查不应该放在这里，应该在构造的时候先检查一遍
         public uint bianhao { get; }
-
+        dsf
         public class jiaoyishuxingJg
         {
             public chiguleixingMj chiguleixing { get; }
@@ -34,7 +34,7 @@ namespace moni
             }
         }
         public jiaoyishuxingJg jiaoyishuxing { get; set; }
-
+        fdfsfsdf
         public class yuqiJg
         {
             public int qishishijian { get; set; }
