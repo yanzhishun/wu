@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Diagnostics;
 namespace moni
 {
+     
     static class Program
     {
         /// <summary>
@@ -14,9 +15,12 @@ namespace moni
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            /*Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1());//*/
+            qunti q = new qunti();
+            gushixitong d = new gushixitong();
+            
         }
     }
 }
